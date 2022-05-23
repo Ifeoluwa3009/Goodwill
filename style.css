@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Roboto', sans-serif;
+}
+.hero{
+    background-color: hsl(255, 90%, 65% );
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 2rem;
+}
+
+nav{
+    /* border: 2px solid red; */
+    width: 60%;
+    margin: 0 auto;
+}
+ul{
+    list-style-type: none;
+    text-align: center;
+}
+li{
+    padding: 0.2rem;
+}
+.btn{
+    padding: 0.3rem 1rem;
+}
+.hero-text{
+padding: 2rem 0;
+}
+
+.phone-container{
+    width: 15rem;
+    height: 22rem;
+    margin-bottom: 1.5rem;
+}
+.phone-img{
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem;
+}
+.hero-content h2{
+    margin-bottom: 1rem;
+}
+.hero-content p {
+    margin-bottom: 1rem;
+}
+
+@media (min-width: 830px) {
+header{
+    display: flex;
+    align-items: center;
+}
+
+li{
+display: inline;
+}
+.btn{
+    padding: 0;
+    height: auto;
+}
+.hero-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10rem 10rem 0 10rem;
+}
+
+.phone-container{
+    width: 200px; 
+}
+.hero-content{
+width: 50%;
+margin-top: 9rem;
+}
+.phone-img{
+    position: relative;
+    top: 30%;
+}
+footer{
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+}
+.footer-text{
+   width: 80%;
+   margin: auto;
+}
+}
